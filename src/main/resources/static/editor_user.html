@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zn">
+    <head>
+        <meta charset="utf-8">
+        <title>编辑信息</title>
+        <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+        <script src="res/layui/layui.js"></script>
+    </head>
+    <body>
+    <!--<div class ="layui-text" >-->
+        <!--<h3>编辑</h3>-->
+    <!--</div>-->
+    <br/>
+    <br/><br/>
+
+    <div >
+        <form class="layui-form" style="width: 500px;height: 900px;">
+            <div class="layui-form-item">
+                <label class="layui-form-label">年龄</label>
+                <div class="layui-input-block">
+                    <input type="text" name="age" autocomplete="off" class="layui-input" style="max-width: 60px;" id="age">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">爱好</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="interest" autocomplete="off" class="layui-input" style="width: 400px;">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">职业</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="career"autocomplete="off" class="layui-input" style="width: 400px;">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">电话</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="phone"autocomplete="off" class="layui-input" style="width: 400px;">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">微信号</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="weixin"autocomplete="off" class="layui-input" style="width: 400px;">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">qq号</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="qq"autocomplete="off" class="layui-input" style="width: 400px;">
+                </div>
+            </div>
+
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <input type="radio" name="sex" value="男" title="男" id="sex1">
+                    <input type="radio" name="sex" value="女" title="女" id="sex0" checked>
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">自我介绍</label>
+                <div class="layui-input-block">
+                    <textarea name="desc" placeholder="不写也行" class="layui-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="layui-upload">
+                <button type="button" class="layui-btn" id="test1">上传图片</button>
+                <div class="layui-upload-list">
+                    <img class="layui-upload-img" src="res/img/img_back.png" id="demo1" width="200px;" height="200px;">
+                    <p id="demoText"></p>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button  type="button" class="layui-btn" lay-submit lay-filter="formDemo" id="sub">立即提交</button>
+                    <a type="button" class="layui-btn layui-btn-primary" href="about.html">返回</a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    </body>
+    <script>
+        //Demo
+        layui.use(['form','jquery','upload'], function(){
+            var form = layui.form;
+            var $ = layui.jquery;
+            var upload = layui.upload;
+            $.post("info/search",function (resp) {
+                console.info(resp)
+                if(resp.data != null){
+                    $("input[name='age']").val(resp.data.age);
+                    $("input[name='interest']").val(resp.data.interest);
+                    $("input[name='career']").val(resp.data.career);
+                    $("input[name='desc']").val(resp.data.desc);
+                    $("input[name='phone']").val(resp.data.phone);
+                    $("input[name='qq']").val(resp.data.qq);
+                    $("input[name='weixin']").val(resp.data.weixin);
+
+                }
+            });
+            // 监听提交
+           form.on('submit(formDemo)', function(data){
+
+               data.field.sex = (data.field.sex == "女"? 0:1)
+               $.ajax({
+                   url : 'info/update',
+                   type: "post",
+                   async: true,
+                   data : JSON.stringify(data.field),
+                   dataType: 'json',
+                   contentType: 'application/json;charset=UTF-8',
+               });
+
+               return false;
+           });
+
+            //普通图片上传
+            var uploadInst = upload.render({
+                elem: '#test1'
+                ,url: 'info/upload/'
+                ,auto: false
+                ,data: {
+                    type: "head"
+                }
+                ,bindAction:'#sub'
+                ,choose: function(obj){
+                    //预读本地文件示例，不支持ie8
+                    obj.preview(function(index, file, result){
+                        $('#demo1').attr('src', result); //图片链接（base64）
+                    });
+                }
+                ,done: function(res){
+                    //如果上传失败
+                    if(res.code == 400){
+                        return layer.msg('上传失败');
+                    }else{
+                        alert("图片上传成功");
+                        window.location.href="about.html";
+                    }
+                    //上传成功
+                }
+                ,error: function(){
+                    //演示失败状态，并实现重传
+//                    var demoText = $('#demoText');
+//                    demoText.html('<span style="color: #FF5722;">上传失败</span> <a class="layui-btn layui-btn-xs demo-reload">重试</a>');
+//                    demoText.find('.demo-reload').on('click', function(){
+//                        uploadInst.upload();
+//                    });
+        }
+        });
+        });
+    </script>
+</html>

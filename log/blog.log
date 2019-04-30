@@ -1,0 +1,138 @@
+913  [INFO ] 2019-04-23 15:58:56 [main] com.oyzj.blog.BolgApplicationTests - Starting BolgApplicationTests on DESKTOP-87CTP83 with PID 2780 (started by rb in E:\myFile\file\project\Bolg)
+914  [INFO ] 2019-04-23 15:58:56 [main] com.oyzj.blog.BolgApplicationTests - No active profile set, falling back to default profiles: default
+1687 [DEBUG] 2019-04-23 15:58:57 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1698 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+1698 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+1698 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+1698 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+1698 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+1699 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+1699 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+1699 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+1700 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+1700 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+1700 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+1700 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+1700 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+1700 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+1700 [DEBUG] 2019-04-23 15:58:57 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+1759 [INFO ] 2019-04-23 15:58:57 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+1762 [INFO ] 2019-04-23 15:58:57 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+1804 [INFO ] 2019-04-23 15:58:57 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2156 [INFO ] 2019-04-23 15:58:57 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9f31813c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2351 [INFO ] 2019-04-23 15:58:57 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2560 [INFO ] 2019-04-23 15:58:58 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2581 [DEBUG] 2019-04-23 15:58:58 [main] org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2582 [DEBUG] 2019-04-23 15:58:58 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+2582 [DEBUG] 2019-04-23 15:58:58 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+2582 [DEBUG] 2019-04-23 15:58:58 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+2582 [DEBUG] 2019-04-23 15:58:58 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+2583 [DEBUG] 2019-04-23 15:58:58 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+2583 [DEBUG] 2019-04-23 15:58:58 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+2584 [DEBUG] 2019-04-23 15:58:58 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+3082 [WARN ] 2019-04-23 15:58:58 [main] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.album.
+3082 [WARN ] 2019-04-23 15:58:58 [main] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3103 [DEBUG] 2019-04-23 15:58:58 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+3108 [WARN ] 2019-04-23 15:58:58 [main] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.comment.
+3108 [WARN ] 2019-04-23 15:58:58 [main] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3123 [DEBUG] 2019-04-23 15:58:58 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+3145 [DEBUG] 2019-04-23 15:58:58 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+3165 [DEBUG] 2019-04-23 15:58:58 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+3188 [DEBUG] 2019-04-23 15:58:58 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+3904 [INFO ] 2019-04-23 15:58:59 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4049 [INFO ] 2019-04-23 15:58:59 [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+4799 [INFO ] 2019-04-23 15:59:00 [main] com.oyzj.blog.BolgApplicationTests - Started BolgApplicationTests in 4.27 seconds (JVM running for 5.096)
+5111 [INFO ] 2019-04-23 15:59:00 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+5115 [INFO ] 2019-04-23 15:59:00 [Thread-3] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+726  [INFO ] 2019-04-23 16:07:15 [main] com.oyzj.blog.BolgApplicationTests - Starting BolgApplicationTests on DESKTOP-87CTP83 with PID 11384 (started by rb in E:\myFile\file\project\Bolg)
+727  [INFO ] 2019-04-23 16:07:15 [main] com.oyzj.blog.BolgApplicationTests - No active profile set, falling back to default profiles: default
+1280 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1292 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+1292 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+1292 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+1292 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+1292 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+1293 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+1294 [DEBUG] 2019-04-23 16:07:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+1324 [INFO ] 2019-04-23 16:07:16 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+1326 [INFO ] 2019-04-23 16:07:16 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+1348 [INFO ] 2019-04-23 16:07:16 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+1661 [INFO ] 2019-04-23 16:07:16 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b2b1804] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+1788 [INFO ] 2019-04-23 16:07:16 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+1959 [INFO ] 2019-04-23 16:07:16 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+1978 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+1979 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+1980 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+1980 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+1980 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+1980 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+1981 [DEBUG] 2019-04-23 16:07:16 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+1981 [DEBUG] 2019-04-23 16:07:16 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+2433 [WARN ] 2019-04-23 16:07:17 [main] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.album.
+2434 [WARN ] 2019-04-23 16:07:17 [main] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2453 [DEBUG] 2019-04-23 16:07:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+2458 [WARN ] 2019-04-23 16:07:17 [main] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.comment.
+2459 [WARN ] 2019-04-23 16:07:17 [main] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2473 [DEBUG] 2019-04-23 16:07:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+2495 [DEBUG] 2019-04-23 16:07:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+2513 [DEBUG] 2019-04-23 16:07:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+2533 [DEBUG] 2019-04-23 16:07:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+3097 [INFO ] 2019-04-23 16:07:17 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+3223 [INFO ] 2019-04-23 16:07:18 [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+3753 [INFO ] 2019-04-23 16:07:18 [main] com.oyzj.blog.BolgApplicationTests - Started BolgApplicationTests in 3.373 seconds (JVM running for 4.014)
+3918 [INFO ] 2019-04-23 16:07:18 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+3920 [INFO ] 2019-04-23 16:07:18 [Thread-3] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+731  [INFO ] 2019-04-23 16:08:57 [main] com.oyzj.blog.BolgApplicationTests - Starting BolgApplicationTests on DESKTOP-87CTP83 with PID 11436 (started by rb in E:\myFile\file\project\Bolg)
+733  [INFO ] 2019-04-23 16:08:57 [main] com.oyzj.blog.BolgApplicationTests - No active profile set, falling back to default profiles: default
+1650 [DEBUG] 2019-04-23 16:08:58 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1662 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+1662 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+1662 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+1662 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+1663 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+1664 [DEBUG] 2019-04-23 16:08:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+1698 [INFO ] 2019-04-23 16:08:58 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+1700 [INFO ] 2019-04-23 16:08:58 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+1722 [INFO ] 2019-04-23 16:08:58 [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2234 [INFO ] 2019-04-23 16:08:59 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f23abeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2393 [INFO ] 2019-04-23 16:08:59 [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2629 [INFO ] 2019-04-23 16:08:59 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2656 [DEBUG] 2019-04-23 16:08:59 [main] org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2657 [DEBUG] 2019-04-23 16:08:59 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+2659 [DEBUG] 2019-04-23 16:08:59 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+2659 [DEBUG] 2019-04-23 16:08:59 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+2660 [DEBUG] 2019-04-23 16:08:59 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+2660 [DEBUG] 2019-04-23 16:08:59 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+2662 [DEBUG] 2019-04-23 16:08:59 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+2664 [DEBUG] 2019-04-23 16:08:59 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+3156 [WARN ] 2019-04-23 16:08:59 [main] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.album.
+3156 [WARN ] 2019-04-23 16:08:59 [main] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3186 [DEBUG] 2019-04-23 16:08:59 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+3194 [WARN ] 2019-04-23 16:08:59 [main] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.comment.
+3195 [WARN ] 2019-04-23 16:08:59 [main] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3227 [DEBUG] 2019-04-23 16:09:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+3265 [DEBUG] 2019-04-23 16:09:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+3301 [DEBUG] 2019-04-23 16:09:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+3368 [DEBUG] 2019-04-23 16:09:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+4434 [INFO ] 2019-04-23 16:09:01 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4597 [INFO ] 2019-04-23 16:09:01 [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+5150 [INFO ] 2019-04-23 16:09:01 [main] com.oyzj.blog.BolgApplicationTests - Started BolgApplicationTests in 4.8 seconds (JVM running for 5.411)
+5333 [INFO ] 2019-04-23 16:09:02 [Thread-3] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+5336 [INFO ] 2019-04-23 16:09:02 [Thread-3] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="../res/css/main.css">
+    <script type="text/javascript" src="../res/layui/layui.js"></script>
+</head>
+<body>
+
+
+    <div class="layui-main layui-col-md-offset5" >
+        <form class="layui-form" >
+            <div style="width: 400px;">
+                <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+                    <legend>拖拽上传</legend>
+                </fieldset>
+
+                <div class="layui-upload-drag" id="test10">
+                    <img class="layui-upload-img" src="res/img/img_back.png" id="demo1" width="200px;" height="200px;" >
+                    <p>点击上传，或将文件拖拽到此处</p>
+                </div>
+            </div>
+            <span>为你的图片添加些简介吧</span>
+            <br/>
+            <span>介绍:</span>
+            <input placeholder="介绍在精不在多" id="jiesao"/>
+            <br/>
+        </form>
+        <i class="layui-icon layui-icon-location"></i>
+        <select id="pro" onchange="addCity()"></select>
+        <select id="city" lay-verify="required"></select>
+        <br/>
+        <button id="sub">上传</button>
+        <a href="album.html">返回</a>
+    </div>
+</body>
+<script type="text/javascript" src="../js/city.js"></script>
+    <script>
+        layui.use(['upload'],function(){
+            $ = layui.jquery;
+                var upload = layui.upload;
+            // var form = layui.form;
+            //图片上传
+            upload.render({
+                elem: '#test10'
+                ,url: 'upload/'
+                ,data: {
+                    type: "album"
+                }
+                ,auto: false
+                ,bindAction:'#sub'
+                ,choose: function(obj){
+                    //预读本地文件示例，不支持ie8
+                    obj.preview(function(index, file, result){
+                        $("#demo1").attr('src', result); //图片链接（base64）
+                    });
+                }
+                ,done: function(res,index){
+                    //如果上传失败
+                    console.info(index);
+                    console.info(res);
+                    if(res.code == 400){
+                        return layer.msg('上传失败');
+                    }else{
+                        //layer.msg("图片上传成功");
+                        //更新图片完成后更新图片的附属信息
+                        $.post("jsAlbum",{place: pro.value+" "+city.value,desc:$("#jiesao").val(),path:res.data},function (resp){
+                            layer.msg(resp.msg);
+                            //成功后跳转
+                            window.location.href="album.html";
+                        });
+
+                    }
+                }
+            });
+
+            //图片附属信息上传
+            // $("#sub").click(function(){
+            //     // place: pro.value+" "+city.value,
+            //     //     desc:$("#jiesao").val()
+
+            // });
+
+        });
+
+        var pro=document.getElementById("pro");
+        var city=document.getElementById("city");
+
+        for (var i = 0; i < province.length; i++){
+            pro.add(new Option(province[i]));
+            city.add(new Option(cityName[0][i]))
+        }
+
+        //获取点击的省份的下标
+        function getIndex(){
+            for(var i=0;i<province.length;i++)
+                if(province[i]==pro.value)
+                    return i;
+        }
+
+        //根据获取的省份下标，更改二级列表为对应下标的城市列表，此即二级联动
+        function addCity(){
+            var index=getIndex();
+            city.options.length=0;
+            for (var i = 0; i < cityName[index].length; i++){
+                city.add(new Option(cityName[index][i]));
+            }
+
+        }
+    </script>
+</html>

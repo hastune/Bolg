@@ -1,0 +1,818 @@
+813  [INFO ] 2019-04-19 10:27:40 [restartedMain] com.oyzj.blog.BolgApplication - Starting BolgApplication on DESKTOP-87CTP83 with PID 8256 (E:\myFile\file\project\Bolg\target\classes started by rb in E:\myFile\file\project\Bolg)
+823  [INFO ] 2019-04-19 10:27:40 [restartedMain] com.oyzj.blog.BolgApplication - No active profile set, falling back to default profiles: default
+891  [INFO ] 2019-04-19 10:27:40 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+892  [INFO ] 2019-04-19 10:27:40 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1646 [DEBUG] 2019-04-19 10:27:41 [restartedMain] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1655 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+1655 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+1655 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+1655 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+1655 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+1656 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+1656 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+1656 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+1657 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+1657 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+1657 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+1657 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+1657 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+1657 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+1657 [DEBUG] 2019-04-19 10:27:41 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+1764 [INFO ] 2019-04-19 10:27:41 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+1766 [INFO ] 2019-04-19 10:27:41 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+1786 [INFO ] 2019-04-19 10:27:41 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2016 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$778932d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2273 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2290 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2301 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2301 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2307 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files (x86)\java\lib\dt.jar;D:\Program Files (x86)\java\lib\tools.jar;E:\myFile\apache-maven-3.5.4\bin\;E:\myFile\mysql-8.0.15-winx64\bin;C:\Users\rb\AppData\Local\Microsoft\WindowsApps;;D:\Program Files (x86)\IntelliJ IDEA 2018.3.5\bin;;.]
+2374 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2374 [INFO ] 2019-04-19 10:27:42 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1482 ms
+2548 [INFO ] 2019-04-19 10:27:42 [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2655 [INFO ] 2019-04-19 10:27:42 [restartedMain] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2687 [DEBUG] 2019-04-19 10:27:42 [restartedMain] org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+2689 [DEBUG] 2019-04-19 10:27:42 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+2690 [DEBUG] 2019-04-19 10:27:42 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+2690 [DEBUG] 2019-04-19 10:27:42 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+2690 [DEBUG] 2019-04-19 10:27:42 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+2691 [DEBUG] 2019-04-19 10:27:42 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+2691 [DEBUG] 2019-04-19 10:27:42 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+2692 [DEBUG] 2019-04-19 10:27:42 [restartedMain] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+3078 [WARN ] 2019-04-19 10:27:43 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.album.
+3079 [WARN ] 2019-04-19 10:27:43 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3095 [DEBUG] 2019-04-19 10:27:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+3102 [WARN ] 2019-04-19 10:27:43 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.comment.
+3102 [WARN ] 2019-04-19 10:27:43 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3113 [DEBUG] 2019-04-19 10:27:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+3134 [DEBUG] 2019-04-19 10:27:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+3155 [DEBUG] 2019-04-19 10:27:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+3175 [DEBUG] 2019-04-19 10:27:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+3346 [INFO ] 2019-04-19 10:27:43 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+3452 [INFO ] 2019-04-19 10:27:43 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+4238 [INFO ] 2019-04-19 10:27:44 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+4264 [INFO ] 2019-04-19 10:27:44 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+4280 [INFO ] 2019-04-19 10:27:44 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+4283 [INFO ] 2019-04-19 10:27:44 [restartedMain] com.oyzj.blog.BolgApplication - Started BolgApplication in 4.053 seconds (JVM running for 4.626)
+16570 [INFO ] 2019-04-19 10:27:56 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16570 [INFO ] 2019-04-19 10:27:56 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16574 [INFO ] 2019-04-19 10:27:56 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+16613 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16615 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c9ab59a] was not registered for synchronization because synchronization is not active
+16629 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@26853414] will not be managed by Spring
+16631 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] com.oyzj.blog.dao.userMapper.search - ==>  Preparing: select * from user where 2 > 1 and name = ? and password = ? 
+16647 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] com.oyzj.blog.dao.userMapper.search - ==> Parameters: admin(String), admin(String)
+16683 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] com.oyzj.blog.dao.userMapper.search - <==      Total: 1
+16684 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c9ab59a]
+16684 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+16684 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3883d5c0] was not registered for synchronization because synchronization is not active
+16684 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@26853414] will not be managed by Spring
+16685 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] com.oyzj.blog.dao.userMapper.search - ==>  Preparing: select * from user where 2 > 1 and name = ? and password = ? 
+16685 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] com.oyzj.blog.dao.userMapper.search - ==> Parameters: admin(String), admin(String)
+16686 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] com.oyzj.blog.dao.userMapper.search - <==      Total: 1
+16686 [DEBUG] 2019-04-19 10:27:56 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3883d5c0]
+35191 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+35191 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+35192 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d34905d] was not registered for synchronization because synchronization is not active
+35192 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52a037dc] was not registered for synchronization because synchronization is not active
+35206 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-11] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@26853414] will not be managed by Spring
+35206 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-11] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+35206 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-11] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+35216 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@454f45c] will not be managed by Spring
+35216 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-8] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+35217 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-8] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+35244 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-11] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+35244 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d34905d]
+35245 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-8] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+35246 [DEBUG] 2019-04-19 10:28:15 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52a037dc]
+76726 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-12] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+76726 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-12] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d5b4551] was not registered for synchronization because synchronization is not active
+76727 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-12] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@454f45c] will not be managed by Spring
+76727 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-12] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+76727 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-26] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+76727 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-26] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60556090] was not registered for synchronization because synchronization is not active
+76727 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-12] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+76727 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-26] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@26853414] will not be managed by Spring
+76727 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-26] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+76728 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-26] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+76728 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-12] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+76728 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-12] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d5b4551]
+76729 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-26] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+76729 [DEBUG] 2019-04-19 10:28:56 [http-nio-8080-exec-26] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60556090]
+1136 [INFO ] 2019-04-19 16:38:41 [restartedMain] com.oyzj.blog.BolgApplication - Starting BolgApplication on DESKTOP-87CTP83 with PID 1496 (E:\myFile\file\project\Bolg\target\classes started by rb in E:\myFile\file\project\Bolg)
+1173 [INFO ] 2019-04-19 16:38:41 [restartedMain] com.oyzj.blog.BolgApplication - No active profile set, falling back to default profiles: default
+1178 [INFO ] 2019-04-19 16:38:41 [restartedMain] com.oyzj.blog.BolgApplication - Starting BolgApplication on DESKTOP-87CTP83 with PID 10960 (E:\myFile\file\project\Bolg\target\classes started by rb in E:\myFile\file\project\Bolg)
+1182 [INFO ] 2019-04-19 16:38:41 [restartedMain] com.oyzj.blog.BolgApplication - No active profile set, falling back to default profiles: default
+1230 [INFO ] 2019-04-19 16:38:41 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1230 [INFO ] 2019-04-19 16:38:41 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1233 [INFO ] 2019-04-19 16:38:41 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1233 [INFO ] 2019-04-19 16:38:41 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2181 [DEBUG] 2019-04-19 16:38:42 [restartedMain] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2181 [DEBUG] 2019-04-19 16:38:42 [restartedMain] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2190 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+2190 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+2191 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+2191 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+2191 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+2192 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+2192 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+2192 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+2192 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+2192 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+2192 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+2192 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+2193 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+2194 [DEBUG] 2019-04-19 16:38:42 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+2238 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2238 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2240 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2240 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2268 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2268 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2531 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5387384a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2538 [INFO ] 2019-04-19 16:38:42 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc0232a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2848 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2852 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2859 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2863 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2866 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2867 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2869 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2869 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2872 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files (x86)\java\lib\dt.jar;D:\Program Files (x86)\java\lib\tools.jar;E:\myFile\apache-maven-3.5.4\bin\;E:\myFile\mysql-8.0.15-winx64\bin;C:\Users\rb\AppData\Local\Microsoft\WindowsApps;;D:\Program Files (x86)\IntelliJ IDEA 2018.3.5\bin;;.]
+2875 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files (x86)\java\lib\dt.jar;D:\Program Files (x86)\java\lib\tools.jar;E:\myFile\apache-maven-3.5.4\bin\;E:\myFile\mysql-8.0.15-winx64\bin;C:\Users\rb\AppData\Local\Microsoft\WindowsApps;;D:\Program Files (x86)\IntelliJ IDEA 2018.3.5\bin;;.]
+2954 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2954 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1721 ms
+3014 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3014 [INFO ] 2019-04-19 16:38:43 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1784 ms
+3140 [INFO ] 2019-04-19 16:38:43 [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+3163 [INFO ] 2019-04-19 16:38:43 [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+3252 [INFO ] 2019-04-19 16:38:43 [restartedMain] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+3269 [INFO ] 2019-04-19 16:38:43 [restartedMain] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+3276 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+3277 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+3277 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+3277 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+3277 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+3277 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+3278 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+3278 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+3285 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+3286 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+3286 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+3286 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+3286 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+3287 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+3287 [DEBUG] 2019-04-19 16:38:43 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+3287 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+3653 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.album.
+3653 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3657 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.album.
+3657 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3673 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+3679 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+3681 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.comment.
+3681 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3684 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.comment.
+3684 [WARN ] 2019-04-19 16:38:43 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+3698 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+3704 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+3730 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+3736 [DEBUG] 2019-04-19 16:38:43 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+3756 [DEBUG] 2019-04-19 16:38:44 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+3760 [DEBUG] 2019-04-19 16:38:44 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+3780 [DEBUG] 2019-04-19 16:38:44 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+3787 [DEBUG] 2019-04-19 16:38:44 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+3980 [INFO ] 2019-04-19 16:38:44 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+3985 [INFO ] 2019-04-19 16:38:44 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4057 [INFO ] 2019-04-19 16:38:44 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+4076 [INFO ] 2019-04-19 16:38:44 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+4792 [WARN ] 2019-04-19 16:38:45 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+4792 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+4820 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+4822 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+4834 [ERROR] 2019-04-19 16:38:45 [restartedMain] o.apache.catalina.util.LifecycleBase - Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.oyzj.blog.BolgApplication.main(BolgApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 19 common frames omitted
+4837 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+4838 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+4839 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+4839 [INFO ] 2019-04-19 16:38:45 [restartedMain] com.oyzj.blog.BolgApplication - Started BolgApplication in 4.561 seconds (JVM running for 5.391)
+4844 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+4844 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+4844 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+4847 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+4852 [ERROR] 2019-04-19 16:38:45 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+4871 [INFO ] 2019-04-19 16:38:45 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+4873 [INFO ] 2019-04-19 16:38:45 [restartedMain] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+77746 [INFO ] 2019-04-19 16:39:57 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+77746 [INFO ] 2019-04-19 16:39:57 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+77751 [INFO ] 2019-04-19 16:39:57 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+85219 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+85227 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22092cd6] was not registered for synchronization because synchronization is not active
+85252 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2671eb4e] will not be managed by Spring
+85255 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] com.oyzj.blog.dao.userMapper.search - ==>  Preparing: select * from user where 2 > 1 and name = ? and password = ? 
+85285 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] com.oyzj.blog.dao.userMapper.search - ==> Parameters: admin(String), admin(String)
+85321 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] com.oyzj.blog.dao.userMapper.search - <==      Total: 1
+85321 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22092cd6]
+85322 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+85322 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5560630b] was not registered for synchronization because synchronization is not active
+85322 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@2671eb4e] will not be managed by Spring
+85322 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] com.oyzj.blog.dao.userMapper.search - ==>  Preparing: select * from user where 2 > 1 and name = ? and password = ? 
+85322 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] com.oyzj.blog.dao.userMapper.search - ==> Parameters: admin(String), admin(String)
+85323 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] com.oyzj.blog.dao.userMapper.search - <==      Total: 1
+85323 [DEBUG] 2019-04-19 16:40:05 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5560630b]
+437  [INFO ] 2019-04-19 16:58:53 [restartedMain] com.oyzj.blog.BolgApplication - Starting BolgApplication on DESKTOP-87CTP83 with PID 2444 (E:\myFile\file\project\Bolg\target\classes started by rb in E:\myFile\file\project\Bolg)
+439  [INFO ] 2019-04-19 16:58:53 [restartedMain] com.oyzj.blog.BolgApplication - No active profile set, falling back to default profiles: default
+473  [INFO ] 2019-04-19 16:58:53 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+473  [INFO ] 2019-04-19 16:58:53 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+918  [DEBUG] 2019-04-19 16:58:53 [restartedMain] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+926  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+926  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+926  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+926  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+926  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+927  [DEBUG] 2019-04-19 16:58:53 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+953  [INFO ] 2019-04-19 16:58:53 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+954  [INFO ] 2019-04-19 16:58:53 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+968  [INFO ] 2019-04-19 16:58:53 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+1157 [INFO ] 2019-04-19 16:58:53 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba61bdc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+1402 [INFO ] 2019-04-19 16:58:54 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1410 [INFO ] 2019-04-19 16:58:54 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+1415 [INFO ] 2019-04-19 16:58:54 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+1415 [INFO ] 2019-04-19 16:58:54 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+1420 [INFO ] 2019-04-19 16:58:54 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files (x86)\java\lib\dt.jar;D:\Program Files (x86)\java\lib\tools.jar;E:\myFile\apache-maven-3.5.4\bin\;E:\myFile\mysql-8.0.15-winx64\bin;C:\Users\rb\AppData\Local\Microsoft\WindowsApps;;D:\Program Files (x86)\IntelliJ IDEA 2018.3.5\bin;;.]
+1477 [INFO ] 2019-04-19 16:58:54 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1477 [INFO ] 2019-04-19 16:58:54 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1004 ms
+1625 [INFO ] 2019-04-19 16:58:54 [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+1714 [INFO ] 2019-04-19 16:58:54 [restartedMain] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+1727 [DEBUG] 2019-04-19 16:58:54 [restartedMain] org.apache.ibatis.io.VFS - Using VFS adapter com.baomidou.mybatisplus.spring.boot.starter.SpringBootVFS
+1728 [DEBUG] 2019-04-19 16:58:54 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+1728 [DEBUG] 2019-04-19 16:58:54 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+1728 [DEBUG] 2019-04-19 16:58:54 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+1728 [DEBUG] 2019-04-19 16:58:54 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+1729 [DEBUG] 2019-04-19 16:58:54 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+1729 [DEBUG] 2019-04-19 16:58:54 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+1729 [DEBUG] 2019-04-19 16:58:54 [restartedMain] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+2019 [WARN ] 2019-04-19 16:58:54 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.album.
+2019 [WARN ] 2019-04-19 16:58:54 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2042 [DEBUG] 2019-04-19 16:58:54 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+2048 [WARN ] 2019-04-19 16:58:54 [restartedMain] c.b.m.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.oyzj.blog.entity.comment.
+2048 [WARN ] 2019-04-19 16:58:54 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2064 [DEBUG] 2019-04-19 16:58:54 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+2089 [DEBUG] 2019-04-19 16:58:54 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+2112 [DEBUG] 2019-04-19 16:58:54 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+2134 [DEBUG] 2019-04-19 16:58:54 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+2327 [INFO ] 2019-04-19 16:58:55 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2427 [INFO ] 2019-04-19 16:58:55 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2777 [INFO ] 2019-04-19 16:58:55 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2800 [INFO ] 2019-04-19 16:58:55 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2815 [INFO ] 2019-04-19 16:58:55 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2816 [INFO ] 2019-04-19 16:58:55 [restartedMain] com.oyzj.blog.BolgApplication - Started BolgApplication in 2.67 seconds (JVM running for 3.309)
+4678 [INFO ] 2019-04-19 16:58:57 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+4678 [INFO ] 2019-04-19 16:58:57 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+4686 [INFO ] 2019-04-19 16:58:57 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+529240 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+529242 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@758fb41b] was not registered for synchronization because synchronization is not active
+529271 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+529273 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-4] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+529288 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-4] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+529361 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-4] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+529362 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@758fb41b]
+529413 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-12] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+529413 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-12] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c5ce613] was not registered for synchronization because synchronization is not active
+529413 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-12] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+529413 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-12] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+529415 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-12] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+529449 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-12] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+529449 [DEBUG] 2019-04-19 17:07:42 [http-nio-8080-exec-12] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c5ce613]
+540895 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+540895 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6eebd41d] was not registered for synchronization because synchronization is not active
+540896 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+540897 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-1] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+540897 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-1] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+540900 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-1] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+540901 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6eebd41d]
+540908 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+540908 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f82fe9f] was not registered for synchronization because synchronization is not active
+540908 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-18] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+540908 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-18] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+540908 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-18] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+540910 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-18] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+540911 [DEBUG] 2019-04-19 17:07:53 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f82fe9f]
+545372 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+545372 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@383f16af] was not registered for synchronization because synchronization is not active
+545372 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-19] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+545372 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+545373 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+545373 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+545374 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@383f16af]
+545380 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+545380 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@272d4a41] was not registered for synchronization because synchronization is not active
+545380 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+545381 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-8] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+545381 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-8] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+545382 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-8] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+545383 [DEBUG] 2019-04-19 17:07:58 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@272d4a41]
+546550 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+546550 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24a2e2c7] was not registered for synchronization because synchronization is not active
+546551 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-11] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+546551 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-11] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+546551 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-11] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+546553 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-11] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+546553 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+546553 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21f089aa] was not registered for synchronization because synchronization is not active
+546553 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24a2e2c7]
+546555 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+546555 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-5] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+546556 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-5] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+546558 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-5] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+546558 [DEBUG] 2019-04-19 17:07:59 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21f089aa]
+547342 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-27] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+547342 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-28] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+547342 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-27] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d09a063] was not registered for synchronization because synchronization is not active
+547342 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-28] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b62046] was not registered for synchronization because synchronization is not active
+547342 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-27] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+547342 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-27] c.o.b.dao.user_imgMapper.selectById - ==>  Preparing: SELECT id,head_img AS headImg FROM user_img WHERE id=? 
+547343 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-27] c.o.b.dao.user_imgMapper.selectById - ==> Parameters: 1(Integer)
+547344 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-27] c.o.b.dao.user_imgMapper.selectById - <==      Total: 1
+547345 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-27] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d09a063]
+547345 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-28] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+547345 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-28] c.o.b.dao.user_infoMapper.selectById - ==>  Preparing: SELECT id,age,sex,career,interest,`desc`,weixin,qq,phone FROM user_info WHERE id=? 
+547345 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-28] c.o.b.dao.user_infoMapper.selectById - ==> Parameters: 1(Integer)
+547361 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-28] c.o.b.dao.user_infoMapper.selectById - <==      Total: 1
+547361 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-28] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20b62046]
+548134 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+548135 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@192de3db] was not registered for synchronization because synchronization is not active
+548135 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-19] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+548135 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+548135 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+548136 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+548136 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@192de3db]
+548143 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+548143 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bc6c6df] was not registered for synchronization because synchronization is not active
+548143 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-25] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+548144 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+548144 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+548146 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+548146 [DEBUG] 2019-04-19 17:08:00 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bc6c6df]
+796714 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+796714 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3e216f] was not registered for synchronization because synchronization is not active
+796717 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+796717 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-4] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+796718 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-4] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+796719 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-4] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+796719 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c3e216f]
+796727 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+796728 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44d4f958] was not registered for synchronization because synchronization is not active
+796728 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+796728 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-5] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+796729 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-5] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+796730 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-5] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+796730 [DEBUG] 2019-04-19 17:12:09 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44d4f958]
+799371 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+799371 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cae04ed] was not registered for synchronization because synchronization is not active
+799371 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-18] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+799371 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-18] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+799372 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-18] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+799375 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-18] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+799375 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+799375 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e5c0be8] was not registered for synchronization because synchronization is not active
+799376 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cae04ed]
+799376 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-30] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+799377 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-30] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+799378 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-30] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+799380 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-30] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+799380 [DEBUG] 2019-04-19 17:12:12 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e5c0be8]
+800212 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+800212 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e3e6b82] was not registered for synchronization because synchronization is not active
+800212 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-19] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+800212 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+800213 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+800214 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+800214 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e3e6b82]
+800220 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-20] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+800220 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-20] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240bbb53] was not registered for synchronization because synchronization is not active
+800221 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-20] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+800221 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-20] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+800221 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-20] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+800222 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-20] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+800222 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-20] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240bbb53]
+800889 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+800889 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f17e1f9] was not registered for synchronization because synchronization is not active
+800889 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+800889 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-6] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+800889 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-6] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+800891 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-6] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+800891 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f17e1f9]
+800891 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+800891 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6013168e] was not registered for synchronization because synchronization is not active
+800892 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-17] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+800892 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-17] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+800892 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-17] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+800894 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-17] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+800895 [DEBUG] 2019-04-19 17:12:13 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6013168e]
+801567 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+801568 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75e02259] was not registered for synchronization because synchronization is not active
+801568 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-18] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+801568 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-18] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+801568 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-18] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+801569 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-18] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+801569 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75e02259]
+801578 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+801578 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d9dc0af] was not registered for synchronization because synchronization is not active
+801578 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-30] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+801578 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-30] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+801578 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-30] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+801579 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-30] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+801580 [DEBUG] 2019-04-19 17:12:14 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4d9dc0af]
+805974 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+805975 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2745ded5] was not registered for synchronization because synchronization is not active
+805975 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-14] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+805975 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-14] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+805975 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-14] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+805976 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-14] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+805977 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2745ded5]
+805978 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+805978 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48a98f48] was not registered for synchronization because synchronization is not active
+805979 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-25] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+805979 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-25] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+805980 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-25] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+805981 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-25] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+805981 [DEBUG] 2019-04-19 17:12:18 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48a98f48]
+806822 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+806822 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74bc8b0b] was not registered for synchronization because synchronization is not active
+806822 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+806822 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-6] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+806823 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-6] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+806823 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-6] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+806824 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74bc8b0b]
+806833 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+806833 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b89ddc5] was not registered for synchronization because synchronization is not active
+806833 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-17] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+806833 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-17] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+806833 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-17] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+806834 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-17] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+806835 [DEBUG] 2019-04-19 17:12:19 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b89ddc5]
+807575 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-24] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+807575 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-24] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@108aa52b] was not registered for synchronization because synchronization is not active
+807576 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-24] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+807576 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-24] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+807576 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-24] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+807577 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-24] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+807577 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-24] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@108aa52b]
+807578 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+807578 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65fe0580] was not registered for synchronization because synchronization is not active
+807578 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+807578 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-2] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+807579 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-2] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+807580 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-2] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+807580 [DEBUG] 2019-04-19 17:12:20 [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65fe0580]
+808390 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+808391 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a5b5d43] was not registered for synchronization because synchronization is not active
+808391 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-14] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+808391 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-14] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+808391 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-14] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+808392 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-14] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+808392 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a5b5d43]
+808400 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+808400 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72cc44bc] was not registered for synchronization because synchronization is not active
+808400 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-25] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+808400 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+808401 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+808402 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+808402 [DEBUG] 2019-04-19 17:12:21 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72cc44bc]
+809484 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+809484 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cbd20bb] was not registered for synchronization because synchronization is not active
+809484 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+809484 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-6] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+809485 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-6] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+809486 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-6] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+809486 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cbd20bb]
+809487 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+809487 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e441ee9] was not registered for synchronization because synchronization is not active
+809487 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+809487 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-3] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+809488 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-3] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+809489 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-3] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+809490 [DEBUG] 2019-04-19 17:12:22 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e441ee9]
+954780 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+954781 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44cb8b59] was not registered for synchronization because synchronization is not active
+954784 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+954784 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] com.oyzj.blog.dao.userMapper.search - ==>  Preparing: select * from user where 2 > 1 and name = ? and password = ? 
+954784 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] com.oyzj.blog.dao.userMapper.search - ==> Parameters: admin(String), admin(String)
+954785 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] com.oyzj.blog.dao.userMapper.search - <==      Total: 1
+954785 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44cb8b59]
+954785 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+954785 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@481686c8] was not registered for synchronization because synchronization is not active
+954786 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+954786 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] com.oyzj.blog.dao.userMapper.search - ==>  Preparing: select * from user where 2 > 1 and name = ? and password = ? 
+954786 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] com.oyzj.blog.dao.userMapper.search - ==> Parameters: admin(String), admin(String)
+954786 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] com.oyzj.blog.dao.userMapper.search - <==      Total: 1
+954787 [DEBUG] 2019-04-19 17:14:47 [http-nio-8080-exec-18] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@481686c8]
+957537 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+957537 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69596f0a] was not registered for synchronization because synchronization is not active
+957538 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-30] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+957538 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-30] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+957538 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-30] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+957539 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-27] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+957539 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-30] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+957539 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-27] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17be2410] was not registered for synchronization because synchronization is not active
+957539 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-30] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69596f0a]
+957539 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-27] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+957539 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-27] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+957540 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-27] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+957540 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-27] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+957541 [DEBUG] 2019-04-19 17:14:50 [http-nio-8080-exec-27] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17be2410]
+959353 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+959353 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f8fa113] was not registered for synchronization because synchronization is not active
+959353 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+959353 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-1] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+959353 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-1] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+959354 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-1] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+959354 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f8fa113]
+959358 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-24] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+959359 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-24] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38387fbc] was not registered for synchronization because synchronization is not active
+959359 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-24] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+959359 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-24] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+959359 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-24] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+959360 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-24] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+959361 [DEBUG] 2019-04-19 17:14:52 [http-nio-8080-exec-24] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38387fbc]
+960498 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+960499 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2015212c] was not registered for synchronization because synchronization is not active
+960499 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+960499 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-2] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+960499 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-2] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+960500 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+960500 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dc980a0] was not registered for synchronization because synchronization is not active
+960503 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-2] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+960504 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2015212c]
+960507 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+960507 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-5] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+960508 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-5] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+960511 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-5] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+960511 [DEBUG] 2019-04-19 17:14:53 [http-nio-8080-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@dc980a0]
+963898 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+963898 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31dc788a] was not registered for synchronization because synchronization is not active
+963899 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-11] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+963899 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-11] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+963899 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-11] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+963900 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-11] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+963900 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-11] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31dc788a]
+963907 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-26] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+963907 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-26] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@db628ab] was not registered for synchronization because synchronization is not active
+963907 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-26] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+963907 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-26] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+963907 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-26] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+963909 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-26] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+963909 [DEBUG] 2019-04-19 17:14:56 [http-nio-8080-exec-26] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@db628ab]
+964347 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-13] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+964347 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-13] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@334dc8bd] was not registered for synchronization because synchronization is not active
+964347 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-13] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+964347 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-13] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+964347 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-13] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+964348 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-15] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+964348 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-15] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7cd5f1f9] was not registered for synchronization because synchronization is not active
+964348 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-15] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+964348 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-15] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+964348 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-13] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+964348 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-15] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+964348 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-13] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@334dc8bd]
+964349 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-15] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+964349 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-15] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7cd5f1f9]
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-16] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-16] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cd1fbe3] was not registered for synchronization because synchronization is not active
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b64c39b] was not registered for synchronization because synchronization is not active
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-16] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-4] c.o.b.dao.user_infoMapper.selectById - ==>  Preparing: SELECT id,age,sex,career,interest,`desc`,weixin,qq,phone FROM user_info WHERE id=? 
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-16] c.o.b.dao.user_imgMapper.selectById - ==>  Preparing: SELECT id,head_img AS headImg FROM user_img WHERE id=? 
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-16] c.o.b.dao.user_imgMapper.selectById - ==> Parameters: 1(Integer)
+964900 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-4] c.o.b.dao.user_infoMapper.selectById - ==> Parameters: 1(Integer)
+964901 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-16] c.o.b.dao.user_imgMapper.selectById - <==      Total: 1
+964902 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-16] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cd1fbe3]
+964902 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-4] c.o.b.dao.user_infoMapper.selectById - <==      Total: 1
+964902 [DEBUG] 2019-04-19 17:14:57 [http-nio-8080-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3b64c39b]
+965346 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+965346 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@450a9c06] was not registered for synchronization because synchronization is not active
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-17] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-17] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-17] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-22] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-22] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69a31440] was not registered for synchronization because synchronization is not active
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-22] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-22] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+965347 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-22] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+965348 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-17] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+965348 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-17] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@450a9c06]
+965348 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-22] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+965348 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-22] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69a31440]
+965707 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+965707 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b4dbd84] was not registered for synchronization because synchronization is not active
+965708 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+965708 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-6] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+965708 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-6] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+965710 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-6] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+965710 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b4dbd84]
+965716 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+965716 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f32e58] was not registered for synchronization because synchronization is not active
+965717 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+965717 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-3] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+965717 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-3] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+965718 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-3] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+965718 [DEBUG] 2019-04-19 17:14:58 [http-nio-8080-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@65f32e58]
+966957 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-23] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+966957 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+966958 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-23] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d6b6051] was not registered for synchronization because synchronization is not active
+966958 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24c19e30] was not registered for synchronization because synchronization is not active
+966959 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-23] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+966959 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+966959 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-23] c.o.b.dao.user_infoMapper.selectById - ==>  Preparing: SELECT id,age,sex,career,interest,`desc`,weixin,qq,phone FROM user_info WHERE id=? 
+966959 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-7] c.o.b.dao.user_imgMapper.selectById - ==>  Preparing: SELECT id,head_img AS headImg FROM user_img WHERE id=? 
+966959 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-23] c.o.b.dao.user_infoMapper.selectById - ==> Parameters: 1(Integer)
+966959 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-7] c.o.b.dao.user_imgMapper.selectById - ==> Parameters: 1(Integer)
+966961 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-7] c.o.b.dao.user_imgMapper.selectById - <==      Total: 1
+966961 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-23] c.o.b.dao.user_infoMapper.selectById - <==      Total: 1
+966962 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-23] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d6b6051]
+966962 [DEBUG] 2019-04-19 17:14:59 [http-nio-8080-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24c19e30]
+967778 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+967778 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@116b577b] was not registered for synchronization because synchronization is not active
+967778 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+967778 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-8] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+967778 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-8] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+967780 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-8] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+967781 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@116b577b]
+967786 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+967786 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d656735] was not registered for synchronization because synchronization is not active
+967786 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-19] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+967786 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+967786 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+967787 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-19] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+967788 [DEBUG] 2019-04-19 17:15:00 [http-nio-8080-exec-19] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d656735]
+968541 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+968541 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-20] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+968542 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-20] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7135eb04] was not registered for synchronization because synchronization is not active
+968542 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50d7032d] was not registered for synchronization because synchronization is not active
+968542 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-20] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+968543 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-20] c.o.b.dao.user_imgMapper.selectById - ==>  Preparing: SELECT id,head_img AS headImg FROM user_img WHERE id=? 
+968543 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-20] c.o.b.dao.user_imgMapper.selectById - ==> Parameters: 1(Integer)
+968542 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+968543 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-10] c.o.b.dao.user_infoMapper.selectById - ==>  Preparing: SELECT id,age,sex,career,interest,`desc`,weixin,qq,phone FROM user_info WHERE id=? 
+968543 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-10] c.o.b.dao.user_infoMapper.selectById - ==> Parameters: 1(Integer)
+968544 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-20] c.o.b.dao.user_imgMapper.selectById - <==      Total: 1
+968545 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-10] c.o.b.dao.user_infoMapper.selectById - <==      Total: 1
+968545 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50d7032d]
+968545 [DEBUG] 2019-04-19 17:15:01 [http-nio-8080-exec-20] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7135eb04]
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-21] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-21] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e4a87ae] was not registered for synchronization because synchronization is not active
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-21] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a77ddaf] will not be managed by Spring
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-21] c.o.blog.dao.AlbumMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM album WHERE (user_id = ?) 
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-21] c.o.blog.dao.AlbumMapper.selectCount - ==> Parameters: 1(Integer)
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ebc491] was not registered for synchronization because synchronization is not active
+969438 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-14] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+969439 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-14] c.o.blog.dao.AlbumMapper.selectList - ==>  Preparing: SELECT user_id AS userId,img_desc AS imgDesc,`time`,img_path AS imgPath,img_pleace AS imgPleace FROM album WHERE (user_id = ?) 
+969439 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-14] c.o.blog.dao.AlbumMapper.selectList - ==> Parameters: 1(String)
+969439 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-21] c.o.blog.dao.AlbumMapper.selectCount - <==      Total: 1
+969439 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-21] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e4a87ae]
+969439 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-14] c.o.blog.dao.AlbumMapper.selectList - <==      Total: 2
+969440 [DEBUG] 2019-04-19 17:15:02 [http-nio-8080-exec-14] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ebc491]
+970292 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+970292 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ef88b51] was not registered for synchronization because synchronization is not active
+970293 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-25] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+970293 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.selectCount - ==>  Preparing: SELECT COUNT(1) FROM comment WHERE (re_id = ?) 
+970294 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.selectCount - ==> Parameters: 1(Integer)
+970296 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-25] c.o.b.dao.commentMapper.selectCount - <==      Total: 1
+970297 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-25] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ef88b51]
+970304 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-28] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+970304 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-28] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@366a49e1] was not registered for synchronization because synchronization is not active
+970304 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-28] o.m.s.t.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7dbd8acf] will not be managed by Spring
+970304 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-28] c.o.b.dao.commentMapper.get_comment - ==>  Preparing: select c.comment, c.time, u.name, i.head_img from comment c left join user u on c.send_id =u.id left join user_img i on send_id =i.id where re_id = ? limit ?,? 
+970304 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-28] c.o.b.dao.commentMapper.get_comment - ==> Parameters: 1(String), 0(Integer), 10(Integer)
+970305 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-28] c.o.b.dao.commentMapper.get_comment - <==      Total: 1
+970305 [DEBUG] 2019-04-19 17:15:03 [http-nio-8080-exec-28] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@366a49e1]
+4578689 [INFO ] 2019-04-19 18:15:11 [Thread-10] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+4578695 [INFO ] 2019-04-19 18:15:11 [Thread-10] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+4579050 [INFO ] 2019-04-19 18:15:11 [restartedMain] com.oyzj.blog.BolgApplication - Starting BolgApplication on DESKTOP-87CTP83 with PID 2444 (E:\myFile\file\project\Bolg\target\classes started by rb in E:\myFile\file\project\Bolg)
+4579051 [INFO ] 2019-04-19 18:15:11 [restartedMain] com.oyzj.blog.BolgApplication - No active profile set, falling back to default profiles: default
+4579199 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\AlbumMapper.class]
+4579199 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\commentMapper.class]
+4579199 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\userMapper.class]
+4579199 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_imgMapper.class]
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [E:\myFile\file\project\Bolg\target\classes\com\oyzj\blog\dao\user_infoMapper.class]
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'albumMapper' and 'com.oyzj.blog.dao.AlbumMapper' mapperInterface
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'albumMapper'.
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentMapper' and 'com.oyzj.blog.dao.commentMapper' mapperInterface
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentMapper'.
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.oyzj.blog.dao.userMapper' mapperInterface
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_imgMapper' and 'com.oyzj.blog.dao.user_imgMapper' mapperInterface
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_imgMapper'.
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'user_infoMapper' and 'com.oyzj.blog.dao.user_infoMapper' mapperInterface
+4579200 [DEBUG] 2019-04-19 18:15:11 [restartedMain] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'user_infoMapper'.
+4579206 [INFO ] 2019-04-19 18:15:11 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+4579206 [INFO ] 2019-04-19 18:15:11 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+4579210 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+4579242 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba61bdc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+4579305 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+4579305 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+4579305 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+4579305 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+4579317 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+4579317 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 264 ms
+4579345 [INFO ] 2019-04-19 18:15:12 [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+4579377 [INFO ] 2019-04-19 18:15:12 [restartedMain] c.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+4579385 [DEBUG] 2019-04-19 18:15:12 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.album matches criteria [is assignable to Object]
+4579386 [DEBUG] 2019-04-19 18:15:12 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.comment matches criteria [is assignable to Object]
+4579386 [DEBUG] 2019-04-19 18:15:12 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.commentResponce matches criteria [is assignable to Object]
+4579386 [DEBUG] 2019-04-19 18:15:12 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user matches criteria [is assignable to Object]
+4579386 [DEBUG] 2019-04-19 18:15:12 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_img matches criteria [is assignable to Object]
+4579386 [DEBUG] 2019-04-19 18:15:12 [restartedMain] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.oyzj.blog.entity.user_info matches criteria [is assignable to Object]
+4579387 [DEBUG] 2019-04-19 18:15:12 [restartedMain] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.oyzj.blog.entity' for aliases
+4579408 [WARN ] 2019-04-19 18:15:12 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.album ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+4579415 [DEBUG] 2019-04-19 18:15:12 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\AlbumMapper.xml]'
+4579418 [WARN ] 2019-04-19 18:15:12 [restartedMain] c.b.m.mapper.AutoSqlInjector - class com.oyzj.blog.entity.comment ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+4579425 [DEBUG] 2019-04-19 18:15:12 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\commentMapper.xml]'
+4579436 [DEBUG] 2019-04-19 18:15:12 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\userMapper.xml]'
+4579447 [DEBUG] 2019-04-19 18:15:12 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_imgMapper.xml]'
+4579459 [DEBUG] 2019-04-19 18:15:12 [restartedMain] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [E:\myFile\file\project\Bolg\target\classes\mybatis\mapper\user_infoMapper.xml]'
+4579516 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4579540 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+4579625 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+4579642 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+4579645 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+4579645 [INFO ] 2019-04-19 18:15:12 [restartedMain] com.oyzj.blog.BolgApplication - Started BolgApplication in 0.628 seconds (JVM running for 4580.138)
+4579647 [INFO ] 2019-04-19 18:15:12 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

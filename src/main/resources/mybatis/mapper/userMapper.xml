@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oyzj.blog.dao.userMapper">
+
+    <select id="search" parameterType="user" resultType="user">
+        select * from user
+        where 2 > 1
+        <if test="name !=null">
+            and name = #{name}
+        </if>
+        <if test="password != null">
+            and password = #{password}
+        </if>
+        <if test="id != 0">
+            and id=#{id}
+        </if>
+    </select>
+</mapper>

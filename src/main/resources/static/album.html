@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../res/css/main.css">
+<!--加载meta IE兼容文件-->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div class="header"></div>
+
+  <div class="album-content w1000 "  id="layer-photos-demo" class="layer-photos-demo">
+
+    <!--大头图片-->
+    <div class="img-info">
+      <img src="../res/img/xc_img1.jpg" alt="" id="info_img">
+      <div class="title">
+        <p class="data" id="data_p">今日上传<span>2018/10/10</span></p>
+        <p class="text" id="text_p">不知道根据什么规则展示大照片，就这样吧也挺好看的</p>
+      </div>
+    </div>
+
+    <!--图片列表-->
+    <div class="img-list">
+
+      <a class="layui-btn layui-btn-primary" id="add_btn" href="/insertIntoAlbum.html">添加</a>
+
+      <div class="layui-fluid" style="padding:0">
+        <div class="layui-row layui-col-space30 space" id="album_list">
+
+          <!--列表项-->
+          <!--<div class="layui-col-xs12 layui-col-sm4 layui-col-md4">-->
+            <!--<div class="item">-->
+              <!--<img src="../res/img/xc_img3.jpg" style="width: 233px;height: 195px;">-->
+              <!--<div class="cont-text">-->
+                <!--<div class="data">2018/08/08</div>-->
+                <!--<p class="address"><i class="layui-icon layui-icon-location"></i><span>江西九江</span></p>-->
+                <!--<p class="briefly">今日天气晴朗,庐山一日游</p>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+
+        </div>
+      </div>
+      <div id="demo"></div>
+    </div>
+  </div>
+
+
+  <div class="footer-wrap">
+    <div class="footer w1000">
+      <div class="qrcode">
+        <img src="../res/img/11.jpg" width="160px;" height="160px;">
+      </div>
+      <div class="practice-mode">
+        <img src="../res/img/down_img.jpg">
+        <div class="text">
+          <h4 class="title">我的联系方式</h4>
+          <p>微信<span class="WeChat">1234567890</span></p>
+          <p>手机<span class="iphone">1234567890</span></p>
+          <p>邮箱<span class="email">1234567890@qq.com</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../res/layui/layui.js"></script>
+  <script type="text/javascript">
+
+   layui.config({
+      base: '../res/js/util/'
+    }).use(['element','laypage','form','layer','menu'],function(){
+      element = layui.element,laypage = layui.laypage,form = layui.form,layer = layui.layer,menu = layui.menu;
+      $ = layui.$;
+      $(".header").load('head.html');
+      var sum = 0;
+      //查找数据总数
+      $.post("getAblumSum",function(resp){
+          sum = resp.data;
+          // alert(sum);
+          if(sum == 0){
+            $("#demo").hide();
+            $("#data_p").text("别人拍的，好看么");
+            $("#text_p").text("你倒是也放几张上来啊")
+          }else{
+            $("#demo").show();
+          }
+
+      });
+
+      laypage.render({
+        elem: 'demo'
+        ,count: sum //数据总数，从服务端得到
+        ,jump: function(obj, first){
+          //obj包含了当前分页的所有参数，比如：
+          // console.info(obj);
+          // console.log(obj.curr+"  "+first); //得到当前页，以便向服务端请求对应页的数据。
+          // console.log(obj.limit); //得到每页显示的条数
+
+          //首次不执行
+          if(!first){
+            //do something
+            //获取数据
+
+          }
+        }
+      });
+      layer.photos({
+        photos: '#layer-photos-demo'
+        ,anim: 5 //0-6的选择，指定弹出图片动画类型，默认随机（请注意，3.0之前的版本用shift参数）
+        ,tab:function(pic,layero){
+          console.log(pic,layero)
+        }
+      });
+      menu.init();
+
+     /**
+      * 添加相册图片
+      */
+     function add(){
+       var html = "";
+       $.post("getAlbumImg",function (resp) {
+         //console.info(resp);
+         if(resp.data.length ==0){
+           html +="<h2>还没有照片呢</h2>";
+         }
+         for(var i = 0 ; i<resp.data.length;i++){
+           html +=" <div class='layui-col-xs12 layui-col-sm4 layui-col-md4'>" +
+                   "<div class='item'>"+
+                   "<img src=img/album/"+resp.data[i].imgPath+" style='width: 233px;height: 195px;'>"+
+                   "<div class='cont-text'>" +
+                   "<div class='data'>"+resp.data[i].time.split(" ")[0]+"</div>" +
+                   "<p class='address'><i class='layui-icon layui-icon-location'></i><span>"+resp.data[i].imgPleace+"</span></p>" +
+                   "<p class='briefly'>"+resp.data[i].imgDesc+"</p>"+
+                   "</div>"+
+                   "</div>"+
+                   "</div>";
+         }
+        $("#album_list").html(html);
+       });
+     }
+     add();
+
+    });
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oyzj.blog.dao.commentMapper">
+
+    <select id="get_comment" resultType="commentResponce">
+        select
+        c.comment,
+        c.time,
+        u.name,
+        i.head_img
+        from comment c
+        left join user u on c.send_id =u.id
+        left join user_img i on send_id =i.id
+        where re_id = #{id}
+        limit #{start},#{limit}
+    </select>
+</mapper>

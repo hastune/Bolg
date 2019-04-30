@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+  <link rel="stylesheet" type="text/css" href="../res/css/main.css">
+<!--加载meta IE兼容文件-->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+  <script type="text/javascript" src="js/jquery2.0.js"></script>
+  <script type="text/javascript" src="js/jquery.cookie.js"></script>
+</head>
+<body>
+  <div class="header"> </div>
+
+  <div class="about-content">
+    <div class="w1000">
+      <div class="item info">
+        <div class="title layui-row ">
+          <div class="layui-col-md9">
+            <h3 >我的介绍</h3>
+          </div>
+          <div class="layui-col-md3">
+            <h3>
+              <a class="layui-btn layui-btn-primary" href="/editor_user.html">编辑</a>
+            </h3>
+          </div>
+        </div>
+        <div class="cont">
+          <img src="../res/img/xc_img1.jpg" id="head_img">
+          <div class="per-info">
+            <p>
+              姓名：<span class="name">小明</span><br />
+              年龄：<span class="age">24岁</span><br />
+              职业：<span class="Career">设计师, 前端工程师</span><br />
+              兴趣：<span class="interest">爱好旅游,打游戏</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="title">
+          <h3>介绍</h3>
+        </div>
+        <div class="cont">
+          <span class="desc">  无</span>
+        </div>
+      </div>
+
+      <!--<div class="item tool">-->
+        <!--<div class="title">-->
+          <!--<h3>我的技能</h3>-->
+        <!--</div>-->
+        <!--<div class="layui-fluid">-->
+          <!--<div class="layui-row">-->
+            <!--<div class="layui-col-xs6 layui-col-sm3 layui-col-md3">-->
+              <!--<div class="cont-box">-->
+                <!--<img src="../res/img/gr_img2.jpg">-->
+                <!--<p>80%</p>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<div class="layui-col-xs6 layui-col-sm3 layui-col-md3">-->
+              <!--<div class="cont-box">-->
+                <!--<img src="../res/img/gr_img3.jpg">-->
+                <!--<p>80%</p>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<div class="layui-col-xs6 layui-col-sm3 layui-col-md3">-->
+              <!--<div class="cont-box">-->
+                <!--<img src="../res/img/gr_img4.jpg">-->
+                <!--<p>80%</p>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<div class="layui-col-xs6 layui-col-sm3 layui-col-md3">-->
+              <!--<div class="cont-box">-->
+                <!--<img src="../res/img/gr_img5.jpg">-->
+                <!--<p>80%</p>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+      <div class="item contact">
+        <div class="title">
+          <h3>联系方式</h3>
+        </div>
+        <div class="cont">
+          <!--<img src="../res/img/erweima.jpg">-->
+          <div class="text">
+            <p >微信：<span class="weixin">1234567890</span></p>
+            <p >qq：<span class="qq">123456789</span></p>
+            <p >电话：<span class="iphone">123456789</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <div class="footer-wrap">
+    <div class="footer w1000">
+      <div class="qrcode">
+        <img src="../res/img/11.jpg" width="160px;" height="160px;">
+      </div>
+      <div class="practice-mode">
+        <img src="../res/img/down_img.jpg">
+        <div class="text">
+          <h4 class="title">我的联系方式</h4>
+          <p>微信<span class="WeChat">13635994269</span></p>
+          <p>手机<span class="myphone">13635994269</span></p>
+          <p>邮箱<span class="email">z627490280@qq.com</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../res/layui/layui.js"></script>
+  <script type="text/javascript">
+    layui.config({
+      base: '../res/js/util/'
+    }).use(['element','laypage','form','layer','menu'],function(){
+      element = layui.element,laypage = layui.laypage,form = layui.form,layer = layui.layer,menu = layui.menu;
+      menu.init();
+    });
+    $(".header").load('head.html');
+    // initName();
+    // function initName(){
+    //   $(".name").text($.cookie("user").split("-")[1])
+    // }
+
+    function initHead_img(){
+      $.get("getUserHead",function(resp){
+        console.info(resp)
+        $("#head_img").attr("src","img/head/"+resp.data.headImg);
+      });
+
+    }
+    initHead_img();
+
+    init();
+    function init(){
+      $.post("info/search",function (resp) {
+        $(".age").text(resp.data.age);
+        $(".interest").text(resp.data.interest);
+        $(".Career").text(resp.data.career);
+        $(".desc").text(resp.data.desc);
+        $(".weixin").text(resp.data.weixin);
+        $(".iphone").text(resp.data.phone);
+        $(".qq").text(resp.data.qq);
+      });
+    }
+  </script>
+</body>
+</html>

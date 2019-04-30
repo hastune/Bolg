@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<head>-->
+    <meta charset="UTF-8">
+    <!--<title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--</body>-->
+<!--</html>-->
+<!--<div class="header">-->
+    <div class="menu-btn">
+        <div class="menu"></div>
+    </div>
+    <h1 class="logo">
+        <a href="homepage.html">
+            <span>MYBLOG</span>
+            <img src="../res/img/logo.png">
+        </a>
+    </h1>
+    <div class="nav">
+        <a class="url" href="homepage.html">文章</a>
+        <a class="url" href="whisper.html">微语</a>
+        <a class="url" href="leacots.html"  class="active">留言</a>
+        <a class="url" href="album.html">相册</a>
+        <a class="url" href="about.html">关于</a>
+    </div>
+ <!--<ul class="layui-nav header-down-nav">-->
+        <!--<li class="layui-nav-item"><a class="url" href="homepage.html">文章</a></li>-->
+        <!--<li class="layui-nav-item"><a class="url" href="whisper.html">微语</a></li>-->
+        <!--<li class="layui-nav-item"><a class="url active" href="leacots.html">留言</a></li>-->
+        <!--<li class="layui-nav-item"><a class="url" href="album.html">相册</a></li>-->
+        <!--<li class="layui-nav-item"><a class="url" href="about.html">关于</a></li>-->
+    <!--</ul>-->
+    <p class="welcome-text">
+        欢迎来到<span class="name">小明</span>的博客~
+    </p>
+
+<!--</div>-->
+<script>
+    var URL = document.location.search.split('&')[0];
+    //当前页面展示的用户的id
+    for(var i =0;i<document.getElementsByClassName("url").length;i++){
+        document.getElementsByClassName("url")[i].setAttribute("href",document.getElementsByClassName("url")[i].getAttribute("href")+URL);
+    }
+
+    xhr = new XMLHttpRequest();
+    xhr.open("GET","selectById"+URL,false);
+    xhr.send(null);
+    // console.log(xhr.status);
+    if(xhr.status >299){
+        alert("获取用户数据失败，请重新登录");
+        window.location.href="index.html";
+    }
+    // console.info($("#stutas").text());
+    // console.log(xhr.statusText);
+    console.info(document.getElementById("stutas").textContent);
+    var resp =JSON.parse( xhr.responseText );
+    document.getElementsByClassName("name")[0].innerHTML= resp.data.name;
+</script>
